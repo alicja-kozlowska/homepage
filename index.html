@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
+  <body>
     <main>
-        <header>
-            <h1 class="red-violet">Notatki z kursu #WTF</h1>
-        </header>
-        <img src="wtf.png" alt="obrazek z literkami WTF">
-        <section>
-            <h2 class="red-violet">Warstwy strony internetowej</h2>
-            <p>*Warstwa 0 - treść</p>
-            <p>*Warstwa 1 - semantyka <b>(html)</b></p>
-            <p>*Warstwa 2 - prezentacja <b>(css)</b></p>
-            <p>*Warstwa 3 - interakcja <b>(js)</b></p>
-            <article>
-                <p>Do obsługi i kontroli wersji będziemy korzystać z GIT</p>
-                <P>Żeby założyć repozytorium trzeba w cmd wykonać polecenie <i>git init</i></P>
-                <p>polecenie <i>git status</i> pokaże co przechowujemy w git</p>
-                <p>poleceniem <i>git commit -m nazwa w cudzysłowie</i> wykonamy commit, czyli zapiszemy aktualną wersję
-                </p>
-            </article>
-        </section>
-
+      <div class = "index">
+      <header>
+        <h1 class="red-violet">Notatki z kursu #WTF</h1>
+      </header>
+      <img src="wtf.png" alt="obrazek z literkami WTF" />
+      <section>
+          <article class= "warstwy">
+        <h2 class="warstwy__title" >Warstwy strony internetowej</h2>
+        <p class= "warstwy__wymien">  *Warstwa 0 - treść</p>
+        <p class= "warstwy__wymien"> *Warstwa 1 - semantyka <b>(html)</b></p>
+        <p class= "warstwy__wymien"> *Warstwa 2 - prezentacja <b>(css)</b></p>
+        <p class= "warstwy__wymien"> *Warstwa 3 - interakcja <b>(js)</b></p>
+    </article>
+        <article>
+          <p>Do obsługi i kontroli wersji będziemy korzystać z GIT</p>
+          <p>
+            Żeby założyć repozytorium trzeba w cmd wykonać polecenie
+            <i>git init</i>
+          </p>
+          <p>polecenie <i>git status</i> pokaże co przechowujemy w git</p>
+          <p>
+            poleceniem <i>git commit -m nazwa w cudzysłowie</i> wykonamy commit,
+            czyli zapiszemy aktualną wersję
+          </p>
+        </article>
+      </section>
     </main>
-    <footer>
-
-        <nav>
-            <a href="html.html">html</a>
-            <p><a href="css.html">css</a></p>
-            <p><a href="JS.html">JavaScript</a></p>
-            <p><a href="notes.html">notatki</a></p>
-
-        </nav>
-        <p><i>Alicja Kozłowska  2021</i></p>
+    <footer class= "footer">
+      <nav class = "navigation">
+        <a class = "navigation__link navigation__link--html" href="html.html">html</a>
+        <p><a class = "navigation__link" href="css.html">css</a></p>
+        <p><a class = "navigation__link" href="JS.html">JavaScript</a></p>
+        <p><a  class = "navigation__link" href="notes.html">notatki</a></p>
+      </nav>
+      <p><i>Alicja Kozłowska 2021</i></p>
     </footer>
     <script src="main.js"></script>
-
-</body>
-
+  </div>
+  </body>
 </html>

@@ -4,6 +4,7 @@ body {
 
 .red-violet {
     color: #912F40;
+    
 }
 
 p {
@@ -15,4 +16,47 @@ nav {
 }
 a {
     color: #678D58;
+}
+.navigation {
+    background: #678D58;
+    padding: 16px;
+    border-radius: 8px;
+
+}
+.navigation__link {
+    color: #FFFFFA;
+    display: inline=block;
+    margin-right: 20px;
+}
+.navigation__link--html {
+    background:#ED9B40;
+    color: #1E2D2F;
+}
+.warstwy {
+    
+    padding: 16px;
+    border: 2px #1E2D2F solid;
+    border-radius: 16px;
+    
+}
+.warstwy__title {
+    color: #912F40;
+}
+.warstwy__wymien {
+    color: #184b06;
+    
+}
+
+.index {
+  display:block;
+  margin: 10px; 
+  padding: 0px 16px 16px 16px;
+  text-align: center;
+}
+
+.SecondPage {
+    display:block;
+    margin: 10px; 
+    padding: 0px 16px 16px 16px;
+    text-align: center;
 }
